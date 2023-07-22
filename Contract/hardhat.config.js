@@ -4,7 +4,7 @@ require("dotenv").config();
 module.exports = {
   solidity: "0.8.17",
   paths: {
-    artifacts: "../myapp/src/artifacts",
+    artifacts: "../client/src/artifacts",
   },
   settings: {
     optimizer: {
